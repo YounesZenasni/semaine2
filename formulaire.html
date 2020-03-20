@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulaire.css">
+    
+    <title>Formulaire</title>
+</head>
+<body>
+    <!--lien externe-->
+    <a href="https://www.google.fr">Google</a>
+    
+    <!--lien interne-->
+    <a href="portraitcroisé.html">portraitcroisé</a>
+
+    <!--la balise permet de declarer un formulaire, j'ai ajouté un label pour le titre-->
+    <form>
+        <label for="nom">Nom</label> <br>
+        <!--placeholder veut dire place reservée-->
+        <input type="texte" id="nom" name="nom" placeholder="Mettez votre nom" /> <br>
+        
+        <label for="email">Email</label> <br>
+        <input type="email" id="email" name="email"  placeholder="Mettez votre email"/> <br>
+       
+        <label for="password">Mot de passe</label> <br>
+        <input type="password" id="password" name="password"  placeholder="Mettez votre mot de passe"/> <br>
+
+        <label for="message">Message</label> <br>
+        <textarea name="message" id="message" cols="30" rows="10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est ea repellendus molestias asperiores ullam fugiat assumenda tempora quisquam, laboriosam numquam possimus recusandae quas veritatis dolores harum ducimus doloremque illum qui.</textarea> <br>
+    
+        
+            <h1>Selectionnez votre plâts</h1>
+            <br>
+            <SELECT multiple>
+            <OPTION>Spaghetti</OPTION>
+            <OPTION>Tacos</OPTION>
+            <OPTION>Pizza</OPTION>
+            <OPTION>Lasagne</OPTION>
+            <OPTION>Couscous</OPTION>
+            <OPTION>Riz</OPTION> 
+            <OPTION>Poulet</OPTION> 
+            <OPTION>Tajine</OPTION>     
+            </SELECT>
+    </form>
+
+
+    <fieldset>
+        <ul>
+            <li>
+                <label for="italie">Italie</label>
+                <input type="checkbox" checked id="italie" name="italie" value="italie">
+            </li>
+
+            <li>
+                <label for="france">France</label>
+                <input type="checkbox" id="france" name="france" value="france">
+            </li>
+
+            <li>
+                <label for="Senegal">Senegal</label>
+                <input type="checkbox" id="Senegal" name="Senegal" value="Senegal">
+            </li>
+
+            <li>
+                <label for="Algérie">Algérie</label>
+                <input type="checkbox" id="Algérie" name="Algérie" value="Algérie">
+            </li>
+
+            <li>
+                <label for="Espagne">Espagne</label>
+                <input type="checkbox" id="Espagne" name="Espagne" value="Espagne">
+            </li>
+        </ul>
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Pays</legend>
+
+        <input type="radio" id="Algérie">
+        <label for="Algérie">Algérie</label>
+
+        <input type="radio" id="France">
+        <label for="France">France</label>
+
+        <input type="radio" id="Espagne">
+        <label for="Espagne">Espagne</label>
+
+    </fieldset>
+    
+    
+  
+  
+    
+    
+</body>

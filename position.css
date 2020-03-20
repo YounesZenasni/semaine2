@@ -1,0 +1,28 @@
+.bloc1
+{
+   border: 3px solid black;
+   width: 200px;
+   height: 100px;
+}
+.bloc2{
+    border: 3px solid red;
+   width: 200px;
+   height: 150px;
+    position: relative;
+    top: -50px;
+    left: 180px;
+}
+.bloc3
+{
+    position: relative;
+    top: -100px;
+    left: 300px;
+}
+.bloc4{
+    border: 3px solid blue;
+   width: 250px;
+   height: 150px;
+    position: relative;
+    top: -150px;
+    left: 450px;
+}
